@@ -14,7 +14,7 @@ const Tile = (props) => {
         props.handleTileClicked(props.id, props.color);
       }}
     >
-      {props.selected || props.matched ? <svg /> : null}
+      {props.selected || props.matched ? <props.svg /> : null}
     </div>
   );
 };
